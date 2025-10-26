@@ -1,83 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Integritetspolicy - MinBiodling</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Integritetspolicy – MinBiodling</title>
+  <meta name="description" content="Integritetspolicy för MinBiodling – information om personuppgiftsbehandling, rättigheter och kontakt." />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 2rem;
-      background: #fafafa;
-      color: #333;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: #fff;
-      padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 0 6px rgba(0,0,0,0.1);
-    }
+    :root { --fg:#111; --muted:#555; --bg:#fff; --border:#e6e6e6; --accent:#0a7cff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); line-height:1.6; }
+    header { padding: 2.5rem 1rem 1rem; border-bottom:1px solid var(--border); }
+    main { max-width: 860px; margin: 0 auto; padding: 1.25rem; }
+    h1 { margin:0 0 .25rem; font-size: clamp(1.6rem, 2.5vw, 2.2rem); }
+    h2 { margin-top:2rem; font-size:1.35rem; }
+    h3 { font-size:1.05rem; margin-top:1.25rem; }
+    p, li { font-size:1rem; }
+    .updated { color:var(--muted); font-size:.95rem; }
+    nav.toc { background:#fafafa; border:1px solid var(--border); border-radius:.75rem; padding:1rem; margin:1rem 0 2rem; }
+    nav.toc a { color:var(--accent); text-decoration:none; }
+    nav.toc a:hover { text-decoration:underline; }
+    ul { padding-left:1.2rem; }
+    code { background:#f4f4f4; padding:.1rem .3rem; border-radius:.3rem; }
+    footer { margin:3rem 0 2rem; color:var(--muted); font-size:.95rem; }
+    .note { background:#fff7e6; border:1px solid #ffe0a3; padding:.75rem 1rem; border-radius:.5rem; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Integritetspolicy för MinBiodling</h1>
-    <p><em>Senast uppdaterad: 2025-09-08</em></p>
+  <header>
+    <main>
+      <h1>Integritetspolicy för MinBiodling</h1>
+      <p class="updated">Senast uppdaterad: 26 oktober 2025</p>
+    </main>
+  </header>
 
-    <h2>1. Introduktion</h2>
-    <p>
-      Denna integritetspolicy beskriver hur vi samlar in, använder och skyddar personuppgifter i appen
-      <strong>MinBiodling</strong>.
-    </p>
+  <main>
+    <nav class="toc" aria-label="Innehåll">
+      <strong>Innehåll</strong>
+      <ul>
+        <li><a href="#ansvarig">1. Vem är ansvarig?</a></li>
+        <li><a href="#uppgifter">2. Vilka uppgifter behandlar vi?</a></li>
+        <li><a href="#andamal-grund">3. Ändamål och rättslig grund</a></li>
+        <li><a href="#lagring-sakerhet">4. Lagring och säkerhet</a></li>
+        <li><a href="#delning">5. Delning och mottagare</a></li>
+        <li><a href="#overforingar">6. Internationella överföringar</a></li>
+        <li><a href="#lagringstider">7. Lagringstider</a></li>
+        <li><a href="#rattigheter">8. Dina rättigheter</a></li>
+        <li><a href="#barn">9. Barn</a></li>
+        <li><a href="#andringar">10. Ändringar i policyn</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
 
-    <h2>2. Vilka uppgifter samlas in?</h2>
-    <ul>
-      <li>Kontouppgifter (t.ex. e-postadress via Google-inloggning).</li>
-      <li>Användardata du själv matar in (t.ex. information om bigårdar, samhällen, drottningar, försäljningar).</li>
-      <li>Tekniska loggar för felrapportering (icke-personliga).</li>
-    </ul>
+    <section id="ansvarig">
+      <h2>1. Vem är ansvarig?</h2>
+      <p>
+        Personuppgiftsansvarig är <strong>MinBiodling</strong> (”vi”).<br/>
+        Kontakt: <a href="mailto:[din-epost]">info@minbiodling.se</a><br/>
+       <br/>
+        Organisationsnummer: [xxxxxxxx-xxxx]
+      </p>
+    </section>
 
-    <h2>3. Hur används uppgifterna?</h2>
-    <p>Vi använder uppgifterna för att:</p>
-    <ul>
-      <li>Ge dig tillgång till och synkronisera dina data via molnbackup.</li>
-      <li>Möjliggöra återställning av tidigare data.</li>
-      <li>Förbättra appens funktion och säkerhet.</li>
-    </ul>
+    <section id="uppgifter">
+      <h2>2. Vilka uppgifter behandlar vi?</h2>
+      <ul>
+        <li><strong>Konto-/inloggningsuppgifter</strong> (t.ex. e-post om du använder Google-inloggning).</li>
+        <li><strong>Appdata du själv matar in</strong> (t.ex. bigårdar, samhällen, drottningar, noteringar, försäljningar).</li>
+        <li><strong>Tekniska fel-/krashevent</strong> (icke-personliga eller pseudonymiserade loggar för felsökning).</li>
+      </ul>
+      <p class="note">
+        <strong>Obs:</strong> Den nuvarande versionen av appen begär inte platsbehörighet. Om/ när platsfunktion aktiveras uppdaterar vi denna policy och Play Stores ”Data safety” innan lansering av sådan version.
+      </p>
+    </section>
 
-    <h2>4. Delning av uppgifter</h2>
-    <p>
-      Vi delar inte dina personuppgifter med tredje part, förutom nödvändiga tjänster
-      (t.ex. Google Firebase) för lagring och autentisering.
-    </p>
+    <section id="andamal-grund">
+      <h2>3. Ändamål och rättslig grund</h2>
+      <ul>
+        <li><strong>Tillhandahålla och synkronisera tjänsten</strong> (t.ex. molnbackup, återställning) – <em>nödvändigt för att fullgöra avtal</em> (GDPR art. 6.1 b).</li>
+        <li><strong>Säkerhet och felavhjälpning</strong> – <em>berättigat intresse</em> av en säker och fungerande tjänst (GDPR art. 6.1 f).</li>
+      </ul>
+      <p>
+        Om vi i framtiden använder <strong>platsdata</strong> (t.ex. för väderloggar vid inspektioner) kommer ändamål och rättslig grund att framgå här samt i appen innan behörighet begärs.
+      </p>
+    </section>
 
-    <h2>5. Lagring och säkerhet</h2>
-    <p>
-      Dina data lagras i Google Firebase (Firestore och Storage). Vi använder
-      säkerhetsregler för att se till att endast du har tillgång till dina data.
-    </p>
+    <section id="lagring-sakerhet">
+      <h2>4. Lagring och säkerhet</h2>
+      <p>
+        Data kan lagras i <strong>Google Firebase</strong> (t.ex. Firestore/Storage/Authentication) med kryptering i transit och i vila. Åtkomst styrs med lämpliga behörigheter.
+      </p>
+    </section>
 
-    <h2>6. Dina rättigheter</h2>
-    <ul>
-      <li>Du kan när som helst begära ut en kopia av dina data.</li>
-      <li>Du kan radera ditt konto och all tillhörande data.</li>
-      <li>Kontakta oss via e-post om du vill utöva dessa rättigheter.</li>
-    </ul>
+    <section id="delning">
+      <h2>5. Delning och mottagare</h2>
+      <p>
+        Vi <strong>säljer inte</strong> dina uppgifter. Delning sker endast till nödvändiga
+        <strong>personuppgiftsbiträden</strong> (t.ex. Google) för drift, lagring och autentisering enligt personuppgiftsbiträdesavtal.
+      </p>
+    </section>
 
-    <h2>7. Kontakt</h2>
-    <p>
-      Om du har frågor om denna policy, kontakta oss på:
-      <br>
-      <strong>E-post:</strong> info@minbiodling.se <br>
-    </p>
-  </div>
+    <section id="overforingar">
+      <h2>6. Internationella överföringar</h2>
+      <p>
+        Viss behandling kan ske utanför EU/EES. I sådana fall använder vi <strong>EU-kommissionens standardavtalsklausuler (SCC)</strong>
+        och andra lämpliga skyddsåtgärder där så krävs.
+      </p>
+    </section>
+
+    <section id="lagringstider">
+      <h2>7. Lagringstider</h2>
+      <ul>
+        <li><strong>Konto &amp; appdata:</strong> sparas så länge du har konto. Vid radering av konto raderas kopplad data normalt inom <strong>30 dagar</strong> (backupkopior kan gallras något senare enligt rutin).</li>
+        <li><strong>Tekniska loggar:</strong> sparas normalt högst <strong>90 dagar</strong> om inte längre krävs för felsökning/säkerhet.</li>
+      </ul>
+    </section>
+
+    <section id="rattigheter">
+      <h2>8. Dina rättigheter</h2>
+      <p>
+        Du har rätt till <strong>tillgång</strong>, <strong>rättelse</strong>, <strong>radering</strong>,
+        <strong>begränsning</strong>, <strong>invändning</strong>, <strong>dataportabilitet</strong> samt att lämna
+        klagomål till <a href="https://www.imy.se/" target="_blank" rel="noopener">Integritetsskyddsmyndigheten (IMY)</a>.
+        Kontakta oss via <a href="mailto:[din-epost]">info@minbiodling.se</a> för att utöva dina rättigheter.
+      </p>
+    </section>
+
+    <section id="barn">
+      <h2>9. Barn</h2>
+      <p>
+        Tjänsten riktar sig inte till barn under <strong>16</strong> år. Om du anser att ett barn lämnat personuppgifter
+        till oss, kontakta oss så raderar vi uppgifterna.
+      </p>
+    </section>
+
+    <section id="andringar">
+      <h2>10. Ändringar i policyn</h2>
+      <p>
+        Vi kan uppdatera denna policy. Vid väsentliga ändringar informerar vi i appen och uppdaterar datumet överst på sidan.
+        Fortsatt användning efter ändring innebär att du accepterar den uppdaterade policyn.
+      </p>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>
+        <strong>MinBiodling</strong><br/>
+        <a href="mailto:[din-epost]">info@minbiodling.se</a><br/>
+       
+      </p>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> MinBiodling. Alla rättigheter förbehållna.</p>
+    </footer>
+  </main>
+
+  <script>
+    // Uppdatera årtal i foten automatiskt
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
-
