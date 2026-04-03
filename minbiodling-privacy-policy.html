@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="sv">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Integritetspolicy – MinBiodling</title>
-  <meta name="description" content="Integritetspolicy för MinBiodling – information om personuppgiftsbehandling, rättigheter och kontakt." />
+  <title>Privacy Policy – MyApiary</title>
+  <meta name="description" content="Privacy Policy for MyApiary – information on personal data processing, rights, and contact." />
   <style>
     :root { --fg:#111; --muted:#555; --bg:#fff; --border:#e6e6e6; --accent:#0a7cff; }
     * { box-sizing: border-box; }
@@ -20,143 +20,125 @@
     nav.toc a { color:var(--accent); text-decoration:none; }
     nav.toc a:hover { text-decoration:underline; }
     ul { padding-left:1.2rem; }
-    code { background:#f4f4f4; padding:.1rem .3rem; border-radius:.3rem; }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th, td { border: 1px solid var(--border); padding: 0.75rem; text-align: left; }
+    th { background: #f9f9f9; }
     footer { margin:3rem 0 2rem; color:var(--muted); font-size:.95rem; }
-    .note { background:#fff7e6; border:1px solid #ffe0a3; padding:.75rem 1rem; border-radius:.5rem; }
   </style>
 </head>
 <body>
   <header>
     <main>
-      <h1>Integritetspolicy för MinBiodling</h1>
-      <p class="updated">Senast uppdaterad: 26 oktober 2025</p>
+      <h1>Privacy Policy for MyApiary</h1>
+      <p class="updated">Last updated: April 3, 2026</p>
     </main>
   </header>
 
   <main>
-    <nav class="toc" aria-label="Innehåll">
-      <strong>Innehåll</strong>
+    <nav class="toc" aria-label="Table of Contents">
+      <strong>Contents</strong>
       <ul>
-        <li><a href="#ansvarig">1. Vem är ansvarig?</a></li>
-        <li><a href="#uppgifter">2. Vilka uppgifter behandlar vi?</a></li>
-        <li><a href="#andamal-grund">3. Ändamål och rättslig grund</a></li>
-        <li><a href="#lagring-sakerhet">4. Lagring och säkerhet</a></li>
-        <li><a href="#delning">5. Delning och mottagare</a></li>
-        <li><a href="#overforingar">6. Internationella överföringar</a></li>
-        <li><a href="#lagringstider">7. Lagringstider</a></li>
-        <li><a href="#rattigheter">8. Dina rättigheter</a></li>
-        <li><a href="#barn">9. Barn</a></li>
-        <li><a href="#andringar">10. Ändringar i policyn</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#controller">1. Data Controller</a></li>
+        <li><a href="#data-collected">2. Data Collected</a></li>
+        <li><a href="#legal-basis">3. Purpose and Legal Basis</a></li>
+        <li><a href="#storage-security">4. Storage and Security</a></li>
+        <li><a href="#sharing">5. Sharing and Recipients</a></li>
+        <li><a href="#transfers">6. International Transfers</a></li>
+        <li><a href="#retention">7. Retention Periods</a></li>
+        <li><a href="#rights">8. Your Rights</a></li>
+        <li><a href="#children">9. Children</a></li>
+        <li><a href="#changes">10. Policy Changes</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
-    <section id="ansvarig">
-      <h2>1. Vem är ansvarig?</h2>
+    <section id="controller">
+      <h2>1. Data Controller</h2>
       <p>
-        Personuppgiftsansvarig är <strong>MinBiodling</strong> (”vi”).<br/>
-        Kontakt: <a href="mailto:[din-epost]">info@minbiodling.se</a><br/>
+        The data controller is <strong>MyApiary</strong> ("we", "us").<br/>
+        Contact: <a href="mailto:info@minbiodling.se">info@minbiodling.se</a>
       </p>
     </section>
 
-    <section id="uppgifter">
-      <h2>2. Vilka uppgifter behandlar vi?</h2>
+    <section id="data-collected">
+      <h2>2. Data Collected</h2>
+      <h3>2.1 Account and Login</h3>
       <ul>
-        <li><strong>Konto-/inloggningsuppgifter</strong> (t.ex. e-post om du använder Google-inloggning).</li>
-        <li><strong>Appdata du själv matar in</strong> (t.ex. bigårdar, samhällen, drottningar, noteringar, försäljningar).</li>
-        <li><strong>Tekniska fel-/krashevent</strong> (icke-personliga eller pseudonymiserade loggar för felsökning).</li>
+        <li>Email address and profile name via <strong>Google Sign-In</strong> or <strong>Apple Sign-In</strong>.</li>
+        <li>Internal user ID (Firebase UID) to link data to your account.</li>
       </ul>
-      <p class="note">
-        <strong>Obs:</strong> Den nuvarande versionen av appen begär inte platsbehörighet. Om/ när platsfunktion aktiveras uppdaterar vi denna policy och Play Stores ”Data safety” innan lansering av sådan version.
+      <h3>2.2 User-Generated App Data</h3>
+      <p>Information you enter regarding apiaries, colonies, queens, inspection logs, Varroa checks, and sales.</p>
+      <h3>2.3 Location Data</h3>
+      <p>The app requests location permission to provide local weather data via the <strong>Open-Meteo API</strong>. Coordinates are processed in real-time and are <strong>not</strong> stored on our servers.</p>
+      <h3>2.4 Voice Recording and AI Processing</h3>
+      <p>If you use voice-controlled inspections, transcriptions (text only) are sent to the <strong>OpenAI API</strong> to populate inspection fields. No identifiable data like apiary names are included in these API calls.</p>
+    </section>
+
+    <section id="legal-basis">
+      <h2>3. Purpose and Legal Basis</h2>
+      <table>
+        <thead>
+          <tr><th>Purpose</th><th>Legal Basis (GDPR)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Providing and syncing the service</td><td>Contract (Art. 6.1 b)</td></tr>
+          <tr><td>Varroa journal (legal requirement)</td><td>Legal obligation (Art. 6.1 c)</td></tr>
+          <tr><td>GPS weather data</td><td>Consent (Art. 6.1 a)</td></tr>
+          <tr><td>Voice inspection AI</td><td>Consent (Art. 6.1 a)</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="storage-security">
+      <h2>4. Storage and Security</h2>
+      <p>
+        Data is stored in <strong>Google Firebase</strong> with encryption in transit (TLS) and at rest (AES-256). Local data on your device is protected by OS-standard encryption (Keychain/Keystore).
       </p>
     </section>
 
-    <section id="andamal-grund">
-      <h2>3. Ändamål och rättslig grund</h2>
+    <section id="sharing">
+      <h2>5. Sharing and Recipients</h2>
+      <p>
+        We <strong>never sell</strong> your data. Sharing only occurs with essential service providers:
+      </p>
       <ul>
-        <li><strong>Tillhandahålla och synkronisera tjänsten</strong> (t.ex. molnbackup, återställning) – <em>nödvändigt för att fullgöra avtal</em> (GDPR art. 6.1 b).</li>
-        <li><strong>Säkerhet och felavhjälpning</strong> – <em>berättigat intresse</em> av en säker och fungerande tjänst (GDPR art. 6.1 f).</li>
-      </ul>
-      <p>
-        Om vi i framtiden använder <strong>platsdata</strong> (t.ex. för väderloggar vid inspektioner) kommer ändamål och rättslig grund att framgå här samt i appen innan behörighet begärs.
-      </p>
-    </section>
-
-    <section id="lagring-sakerhet">
-      <h2>4. Lagring och säkerhet</h2>
-      <p>
-        Data kan lagras i <strong>Google Firebase</strong> (t.ex. Firestore/Storage/Authentication) med kryptering i transit och i vila. Åtkomst styrs med lämpliga behörigheter.
-      </p>
-    </section>
-
-    <section id="delning">
-      <h2>5. Delning och mottagare</h2>
-      <p>
-        Vi <strong>säljer inte</strong> dina uppgifter. Delning sker endast till nödvändiga
-        <strong>personuppgiftsbiträden</strong> (t.ex. Google) för drift, lagring och autentisering enligt personuppgiftsbiträdesavtal.
-      </p>
-    </section>
-
-    <section id="overforingar">
-      <h2>6. Internationella överföringar</h2>
-      <p>
-        Viss behandling kan ske utanför EU/EES. I sådana fall använder vi <strong>EU-kommissionens standardavtalsklausuler (SCC)</strong>
-        och andra lämpliga skyddsåtgärder där så krävs.
-      </p>
-    </section>
-
-    <section id="lagringstider">
-      <h2>7. Lagringstider</h2>
-      <ul>
-        <li><strong>Konto &amp; appdata:</strong> sparas så länge du har konto. Vid radering av konto raderas kopplad data normalt inom <strong>30 dagar</strong> (backupkopior kan gallras något senare enligt rutin).</li>
-        <li><strong>Tekniska loggar:</strong> sparas normalt högst <strong>90 dagar</strong> om inte längre krävs för felsökning/säkerhet.</li>
+        <li><strong>Google Firebase:</strong> Hosting, Auth, and Analytics.</li>
+        <li><strong>Apple/Google:</strong> Subscription management.</li>
+        <li><strong>Open-Meteo & OpenAI:</strong> Weather and voice processing features.</li>
       </ul>
     </section>
 
-    <section id="rattigheter">
-      <h2>8. Dina rättigheter</h2>
+    <section id="retention">
+      <h2>7. Retention Periods</h2>
+      <ul>
+        <li><strong>Account Data:</strong> Stored as long as the account is active. Deleted within 30 days of account closure.</li>
+        <li><strong>Varroa Records:</strong> Stored for at least 5 years to comply with EU 2019/6 regulations.</li>
+      </ul>
+    </section>
+
+    <section id="rights">
+      <h2>8. Your Rights</h2>
       <p>
-        Du har rätt till <strong>tillgång</strong>, <strong>rättelse</strong>, <strong>radering</strong>,
-        <strong>begränsning</strong>, <strong>invändning</strong>, <strong>dataportabilitet</strong> samt att lämna
-        klagomål till <a href="https://www.imy.se/" target="_blank" rel="noopener">Integritetsskyddsmyndigheten (IMY)</a>.
-        Kontakta oss via <a href="mailto:[din-epost]">info@minbiodling.se</a> för att utöva dina rättigheter.
+        You have the right to <strong>access</strong>, <strong>rectify</strong>, <strong>erase</strong>, and <strong>export</strong> your data. Contact us at <a href="mailto:info@minbiodling.se">info@minbiodling.se</a> to exercise these rights.
       </p>
     </section>
 
-    <section id="barn">
-      <h2>9. Barn</h2>
+    <section id="contact">
+      <h2>Contact</h2>
       <p>
-        Tjänsten riktar sig inte till barn under <strong>16</strong> år. Om du anser att ett barn lämnat personuppgifter
-        till oss, kontakta oss så raderar vi uppgifterna.
-      </p>
-    </section>
-
-    <section id="andringar">
-      <h2>10. Ändringar i policyn</h2>
-      <p>
-        Vi kan uppdatera denna policy. Vid väsentliga ändringar informerar vi i appen och uppdaterar datumet överst på sidan.
-        Fortsatt användning efter ändring innebär att du accepterar den uppdaterade policyn.
-      </p>
-    </section>
-
-    <section id="kontakt">
-      <h2>Kontakt</h2>
-      <p>
-        <strong>MinBiodling</strong><br/>
-        <a href="mailto:[din-epost]">info@minbiodling.se</a><br/>
-       
+        <strong>MyApiary</strong><br/>
+        <a href="mailto:info@minbiodling.se">info@minbiodling.se</a>
       </p>
     </section>
 
     <footer>
-      <p>© <span id="year"></span> MinBiodling. Alla rättigheter förbehållna.</p>
+      <p>© <span id="year"></span> MyApiary. All rights reserved.</p>
     </footer>
   </main>
 
   <script>
-    // Uppdatera årtal i foten automatiskt
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
-
